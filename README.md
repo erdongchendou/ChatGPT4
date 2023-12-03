@@ -1,5 +1,5 @@
 ## 简介
-使用Streamlit框架实现的ChatGPT4聊天工具，并且可以调用DALLE模型进行画图.
+使用Streamlit框架实现的ChatGPT4聊天工具，并且可以调用DALLE模型进行画图。
 
 ## 安装
 ### 获取openai api-key
@@ -9,11 +9,7 @@
 1. 注册openai账号
 2. 进入该网址https://platform.openai.com/account/api-keys.
 3. 点击  `Create new secret key` 按钮创建api-key.
-4. 复制api-key
-
-### 赋值api-key
-
-将创建的api-key复制到config目录下的api_key.py文件中，放在双引号内
+4. 复制api-key，将创建的api-key复制到config目录下的api_key.py文件中，放在双引号内
 
 
 ### 创建虚拟环境
