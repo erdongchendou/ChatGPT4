@@ -1,4 +1,5 @@
-使用Streamlit框架实现的ChatGPT4聊天工具，并且可以调用DALLE模型进行画图
+## 简介
+使用Streamlit框架实现的ChatGPT4聊天工具，并且可以调用DALLE模型进行画图.
 
 ## 安装
 ### 获取openai api-key
@@ -15,19 +16,21 @@
 将创建的api-key复制到config目录下的api_key.py文件中，放在双引号内
 
 
-### 在命令号执行以下命令，创建虚拟环境，并按照需要的python库
+### 创建虚拟环境
+在命令号执行以下命令，创建虚拟环境，并按照需要的python库
 
 ```sh
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
-### 完成以上配置之后，可以运行以下命令，启动服务
+### 运行程序
+完成以上配置之后，运行以下命令，启动服务
 ```sh
 streamlit run Chatbot.py
 ```
 ## 使用方法
-
+![](assets/运行后的效果图.jpg)
 ### 聊天模式
 页面左侧有聊天模式，选择聊天那么就是和GPT4进行纯文字聊天，选择画图则是使用DALLE模型进行画图
 ### 聊天
