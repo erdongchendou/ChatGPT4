@@ -11,7 +11,7 @@ role_definition_for_english_practice = """
 
 english_practice = [
     {"role": "system", "content": role_definition_for_english_practice},
-    {"role": "assistant", "content": "我是你的英语学习助手, 请把你要学习的中文句子发给我"},
+    {"role": "assistant", "content": "我是你的英语学习助手, 请把你要学习的中文句子发给我。\n\n我将给你翻译成英文并生成语音。"},
 ]
 
 general = [
@@ -20,11 +20,16 @@ general = [
 ]
 
 draw_pictures = [
-    {"role": "assistant", "content": "我是Dalle3, 你想画什么图，请把对应的描述发给我"},
+    {"role": "assistant", "content": "我是Dalle3, 你想画什么图，请把对应的描述发给我，越详细约好。"},
+]
+
+text_to_speech = [
+    {"role": "assistant", "content": "我是文本转语音小助手，可以把你要转成语音的内容发给我哦"},
 ]
 
 role_definitions = {
-    "英语练习": english_practice,
     "聊天": general,
     "画图": draw_pictures,
+    "英语口语练习": english_practice,
+    "文字转语音": text_to_speech,
 }

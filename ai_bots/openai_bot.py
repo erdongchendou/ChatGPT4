@@ -16,13 +16,15 @@ class OpenAIBot:
             if chunk.choices[0].finish_reason != "stop":
                 yield chunk.choices[0].delta.content
 
-    def generate_image(self, prompt):
+    def generate_image(self, st):
         response = self.client.images.generate(
             model=self.draw_model,
-            prompt=prompt,
-            size="256x256",
+            prompt=st.session_state.messages[-1]["content"],
+            size=st.session_state.image_size,
+            quality=st.session_state.image_quality,
+            n=st.session_state.number_of_choices,
         )
-        return response.data[0].url
+        return response
 
     def chat(self, st):
         response = self.client.chat.completions.create(
@@ -32,10 +34,10 @@ class OpenAIBot:
         )
         return response
 
-    def generate_audio(self, st, content):
+    def generate_audio(self, st):
         response = self.client.audio.speech.create(
             model=self.tts_model,
             voice=st.session_state.voice,
-            input=content,
+            input=st.session_state.messages[-1]["content"],
         )
         return response
