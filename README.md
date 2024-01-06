@@ -41,6 +41,7 @@ streamlit run Chatbot.py
 
 ## 我的微信和视频号
 扫码加我微信和视频号，一起交流学习python和人工智能，还可以免费学习《python零基础入门课程》，并提供免费答疑。
+
 <img src="assets/微信.jpg" alt="微信" width="300px" /><img src="assets/视频号.jpg" alt="视频号"  width="300px"/>
 
 
