@@ -26,7 +26,7 @@ pip install -r requirements.txt
 streamlit run Chatbot.py
 ```
 ## 使用方法
-<img src="assets/运行后的效果图.jpg" alt="运行后的效果图" style="zoom:30%;" />
+<img src="assets/运行后的效果图.jpg" alt="运行后的效果图" width="720px" />
 
 ### 聊天模式
 页面左侧有聊天模式，选择聊天那么就是和GPT4进行纯文字聊天，选择画图则是使用DALLE模型进行画图
@@ -39,15 +39,12 @@ streamlit run Chatbot.py
 ### 文字转语音
 在页面下方的输入框，输入文字各种语言都可以，按回车按钮，就会直转换成语音。
 
-## 我的微信
-扫码加我微信，一起交流学习python和人工智能
-<img src="assets/微信.jpg" alt="微信" style="zoom:20%;" />
+## 我的微信和视频号
+扫码加我微信和视频号，一起交流学习python和人工智能，还可以免费学习《python零基础入门课程》，并提供免费答疑。
+<img src="assets/微信.jpg" alt="微信" width="300px" /><img src="assets/视频号.jpg" alt="视频号"  width="300px"/>
 
-## 我的视频号
-扫码加我视频号，可以免费学习《python零基础入门课程》，并提供免费答疑。
-<img src="assets/视频号.jpg" alt="视频号" style="zoom:20%;" />
 
 ## 买一杯咖啡
 如果觉得这个项目帮助到了你，你可以帮作者买一杯咖啡表示鼓励。
-<img src="assets/微信收款码.jpg" alt="微信收款码" style="zoom:20%;" />
-<img src="assets/支付宝收款码.jpg" alt="支付宝收款码" style="zoom:20%;" />
+
+<img src="assets/微信收款码.jpg" alt="微信收款码" width="300px" />    <img src="assets/支付宝收款码.jpg" alt="支付宝收款码" width="300px" />
