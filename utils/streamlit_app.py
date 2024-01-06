@@ -36,7 +36,10 @@ class StreamlitApp:
     def set_title(self):
         self.st.title("ChatGPT4")
         self.st.caption(
-            "利用Python调用GPT4的接口, 开发的ChatGPT。 \n\n作者陈雷雷，加我微信：aierdongboxer ， 免费学习Python入门课程。"
+            (
+                "利用Python调用GPT4的接口, 开发的ChatGPT。 \n\n"
+                "作者陈雷雷，加我微信：aierdongboxer ， 免费学习《零基础python入门课程》。"
+            )
         )
         return None
 
@@ -56,7 +59,6 @@ class StreamlitApp:
 
             if self.st.session_state.mode == "文字转语音":
                 self.options_for_english_practice()
-                print("文字转语音")
 
             self.st.write(introduction)
 
