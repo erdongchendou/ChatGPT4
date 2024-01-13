@@ -15,13 +15,18 @@
 ### 创建虚拟环境
 在命令号执行以下命令，创建虚拟环境，并按照需要的python库
 
+#### Mac电脑
+下面这行命令只需要执行一次
 ```sh
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
 ```
+#### Windows电脑
+下面这行命令只需要执行一次
+```sh
+python -m venv .venv ; .\.venv\Scripts\activate ; pip install -r requirements.txt
+
 ### 运行程序
-完成以上配置之后，运行以下命令，启动服务
+完成以上配置之后，每次运行GPT4只需要执行以下命令，即可启动服务
 ```sh
 streamlit run Chatbot.py
 ```
